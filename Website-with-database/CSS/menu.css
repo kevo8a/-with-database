@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(237, 241, 245);
+}
+
+nav {
+  background-color: #337ab7;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: double;
+}
+
+.contenido {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+.col-md-4 {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  width: 33.3333%;
+}
+
+.product-image {
+  max-width: 100px;
+  max-height: 150px;
+  margin: 0 auto;
+}
+
+.product-image-wrapper {
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+table.table-bordered {
+  background-color: #fff;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+p strong {
+  display: inline-block;
+  width: 70px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.btn {
+  border-color: #337ab7;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #337ab7;
+  border-radius: 3px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.banner-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-media a i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-media-footer a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-media-footer i {
+  margin-right: 5px;
+}

@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: rgb(237, 241, 245);
+}
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.product-info h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons button {
+  margin-right: 20px;
+}
+
+.back-button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.back-button button {
+  font-size: 18px;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #337ab7;
+  border-radius: 3px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #e4e7e9;
+}
+
+.btn a {
+  color: white;
+}
+
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  color: #000; /* Color del texto */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-media a i {
+  margin-right: 5px;
+}
+
+/* Estilos para los iconos de las redes sociales */
+.social-media a i {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
